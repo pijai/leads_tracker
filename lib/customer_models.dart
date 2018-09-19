@@ -3,9 +3,9 @@
 // in the LICENSE file.
 
 // import 'util/uuid.dart';
-import 'package:scoped_model_sample/util/uuid.dart';
+import 'package:leads_tracker/util/uuid.dart';
 // import 'repos/repository/repository.dart';
-import 'package:scoped_model_sample/repos/repository/repository.dart';
+import 'package:leads_tracker/repos/repository/repository.dart';
 
 // enum AppTab { customers, stats }
 

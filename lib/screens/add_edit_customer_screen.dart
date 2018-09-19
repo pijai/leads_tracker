@@ -6,10 +6,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:scoped_model_sample/customer_models.dart';
-import 'package:scoped_model_sample/customer_list_model.dart';
+import 'package:leads_tracker/customer_models.dart';
+import 'package:leads_tracker/customer_list_model.dart';
 
 class AddEditCustomerScreen extends StatelessWidget {
   static final GlobalKey<FormState> formKey = GlobalKey<FormState>();

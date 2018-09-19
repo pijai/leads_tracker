@@ -17,7 +17,7 @@ class ArchSampleKeys {
   // Todos
   static final todoList = const Key('__todoList__');
   static final todosLoading = const Key('__todosLoading__');
-  static final todoItem = (String id) => Key('TodoItem__${id}');
+  static final todoItem = (String id) => Key('TodoItem__$id');
   static final todoItemCheckbox =
       (String id) => Key('TodoItem__${id}__Checkbox');
   static final todoItemTask = (String id) => Key('TodoItem__${id}__Task');
@@ -25,7 +25,7 @@ class ArchSampleKeys {
   // customers
   static final customerList = const Key('__customerList__');
   static final customersLoading = const Key('__customersLoading__');
-  static final customerItem = (String id) => Key('CustomerItem__${id}');
+  static final customerItem = (String id) => Key('CustomerItem__$id');
   // static final customerItemCheckbox =
   //     (String id) => Key('CustomerItem__${id}__Checkbox');
   static final customerItemName = (String id) => Key('CustomerItem__${id}__Name');
@@ -33,7 +33,7 @@ class ArchSampleKeys {
   // products
   static final productList = const Key('__productList__');
   static final productsLoading = const Key('__productsLoading__');
-  static final productItem = (String id) => Key('ProductItem__${id}');
+  static final productItem = (String id) => Key('ProductItem__$id');
   // static final productItemCheckbox =
   //     (String id) => Key('ProductItem__${id}__Checkbox');
   static final productItemName = (String id) => Key('ProductItem__${id}__Name');
@@ -43,7 +43,7 @@ class ArchSampleKeys {
   // accounts
   static final accountList = const Key('__accountList__');
   static final accountsLoading = const Key('__accountsLoading__');
-  static final accountItem = (String id) => Key('AccountItem__${id}');
+  static final accountItem = (String id) => Key('AccountItem__$id');
   // static final accountItemCheckbox =
   //     (String id) => Key('AccountItem__${id}__Checkbox');
   static final accountItemName = (String id) => Key('AccountItem__${id}__Name');

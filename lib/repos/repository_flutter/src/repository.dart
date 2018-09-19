@@ -7,9 +7,9 @@ import 'dart:core';
 
 import 'package:meta/meta.dart';
 // import '../../repository/repository.dart';
-import 'package:scoped_model_sample/repos/repository/repository.dart';
+import 'package:leads_tracker/repos/repository/repository.dart';
 // import '../repository_flutter.dart';
-import 'package:scoped_model_sample/repos/repository_flutter/repository_flutter.dart';
+import 'package:leads_tracker/repos/repository_flutter/repository_flutter.dart';
 
 /// A class that glues together our local file storage and web client. It has a
 /// clear responsibility: Load Todos and Persist todos.

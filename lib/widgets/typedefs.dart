@@ -2,10 +2,10 @@
 // Use of this source code is governed by the MIT license that can be found
 // in the LICENSE file.
 
-import 'package:scoped_model_sample/models.dart';
-import 'package:scoped_model_sample/customer_models.dart';
-import 'package:scoped_model_sample/product_models.dart';
-import 'package:scoped_model_sample/account_models.dart';
+import 'package:leads_tracker/models.dart';
+import 'package:leads_tracker/customer_models.dart';
+import 'package:leads_tracker/product_models.dart';
+import 'package:leads_tracker/account_models.dart';
 
 typedef TodoAdder(Todo todo);
 

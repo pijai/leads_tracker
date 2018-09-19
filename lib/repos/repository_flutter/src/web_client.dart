@@ -5,7 +5,7 @@
 import 'dart:async';
 
 // import '../../repository/repository.dart';
-import 'package:scoped_model_sample/repos/repository/repository.dart';
+import 'package:leads_tracker/repos/repository/repository.dart';
 
 /// A class that is meant to represent a Client that would be used to call a Web
 /// Service. It is responsible for fetching and persisting Todos to and from the

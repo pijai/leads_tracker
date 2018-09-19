@@ -4,20 +4,20 @@
 
 import 'package:flutter/material.dart';
 // import 'util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
 import 'package:meta/meta.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:scoped_model_sample/screens/add_edit_screen.dart';
-import 'package:scoped_model_sample/screens/add_edit_customer_screen.dart';
-import 'package:scoped_model_sample/screens/add_edit_product_screen.dart';
-import 'package:scoped_model_sample/screens/add_edit_account_screen.dart';
-import 'package:scoped_model_sample/screens/home_screen.dart';
-import 'package:scoped_model_sample/todo_list_model.dart';
-import 'package:scoped_model_sample/customer_list_model.dart';
-import 'package:scoped_model_sample/product_list_model.dart';
-import 'package:scoped_model_sample/account_list_model.dart';
+import 'package:leads_tracker/screens/add_edit_screen.dart';
+import 'package:leads_tracker/screens/add_edit_customer_screen.dart';
+import 'package:leads_tracker/screens/add_edit_product_screen.dart';
+import 'package:leads_tracker/screens/add_edit_account_screen.dart';
+import 'package:leads_tracker/screens/home_screen.dart';
+import 'package:leads_tracker/todo_list_model.dart';
+import 'package:leads_tracker/customer_list_model.dart';
+import 'package:leads_tracker/product_list_model.dart';
+import 'package:leads_tracker/account_list_model.dart';
 // import 'repos/repository/src/repository.dart';
-import 'package:scoped_model_sample/repos/repository/src/repository.dart';
+import 'package:leads_tracker/repos/repository/src/repository.dart';
 
 class ScopedModelApp extends StatelessWidget {
   final TodosRepository repository;

@@ -4,15 +4,15 @@
 
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/screens/app_tab.dart';
-import 'package:scoped_model_sample/widgets/extra_actions_button.dart';
-import 'package:scoped_model_sample/widgets/filter_button.dart';
-import 'package:scoped_model_sample/widgets/stats_counter.dart';
-import 'package:scoped_model_sample/widgets/todo_list.dart';
-import 'package:scoped_model_sample/widgets/customer_list.dart';
-import 'package:scoped_model_sample/widgets/product_list.dart';
-import 'package:scoped_model_sample/widgets/account_list.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/screens/app_tab.dart';
+import 'package:leads_tracker/widgets/extra_actions_button.dart';
+import 'package:leads_tracker/widgets/filter_button.dart';
+import 'package:leads_tracker/widgets/stats_counter.dart';
+import 'package:leads_tracker/widgets/todo_list.dart';
+import 'package:leads_tracker/widgets/customer_list.dart';
+import 'package:leads_tracker/widgets/product_list.dart';
+import 'package:leads_tracker/widgets/account_list.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen() : super(key: ArchSampleKeys.homeScreen);
@@ -65,6 +65,7 @@ class HomeScreenState extends State<HomeScreen> {
     else if (_activeTab == AppTab.customers) { return CustomerList(); }
     else if (_activeTab == AppTab.products) { return ProductList(); }
     else if (_activeTab == AppTab.accounts) { return AccountList(); }
+    else return null;
   }
 
   Widget _buildFloatingActionButton() {
@@ -150,7 +151,7 @@ class HomeScreenState extends State<HomeScreen> {
         Icons.list,
         key: ArchSampleKeys.accountsTab,
       );
-    }
+    } else return null;
   }
 
   Widget _buildTitle(tab) {
@@ -159,5 +160,6 @@ class HomeScreenState extends State<HomeScreen> {
     else if (tab == AppTab.customers) { return Text('Customers'); }
     else if (tab == AppTab.products) { return Text('Products'); }
     else if (tab == AppTab.accounts) { return Text('Accounts'); }
+    else return null;
   }
 }

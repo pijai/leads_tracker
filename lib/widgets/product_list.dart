@@ -4,12 +4,12 @@
 
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:scoped_model_sample/product_models.dart';
-import 'package:scoped_model_sample/screens/add_edit_product_screen.dart';
-import 'package:scoped_model_sample/product_list_model.dart';
-import 'package:scoped_model_sample/widgets/product_item.dart';
+import 'package:leads_tracker/product_models.dart';
+import 'package:leads_tracker/screens/add_edit_product_screen.dart';
+import 'package:leads_tracker/product_list_model.dart';
+import 'package:leads_tracker/widgets/product_item.dart';
 
 class ProductList extends StatelessWidget {
   ProductList({Key key}) : super(key: key);

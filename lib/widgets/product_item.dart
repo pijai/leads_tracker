@@ -5,8 +5,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/product_models.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/product_models.dart';
 
 class ProductItem extends StatelessWidget {
   final DismissDirectionCallback onDismissed;

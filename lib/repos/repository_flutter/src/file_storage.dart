@@ -7,7 +7,7 @@ import 'dart:convert';
 import 'dart:io';
 
 // import '../../repository/repository.dart';
-import 'package:scoped_model_sample/repos/repository/repository.dart';
+import 'package:leads_tracker/repos/repository/repository.dart';
 
 /// Loads and saves a List of Todos using a text file stored on the device.
 ///

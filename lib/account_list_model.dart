@@ -7,9 +7,9 @@ import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:meta/meta.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:scoped_model_sample/account_models.dart';
+import 'package:leads_tracker/account_models.dart';
 // import 'repos/repository/src/repository.dart';
-import 'package:scoped_model_sample/repos/repository/src/repository.dart';
+import 'package:leads_tracker/repos/repository/src/repository.dart';
 
 class AccountListModel extends Model {
   final AccountsRepository repository;
@@ -73,11 +73,11 @@ class AccountListModel extends Model {
         // }
       }).toList();
 
-  List<Account> get debitAccounts => _accounts.where((account) {
-        if (account.transType == 'debit') {
-          return true;
-        }
-      }).toList();
+  // List<Account> get debitAccounts => _accounts.where((account) {
+  //       if (account.transType == 'debit') {
+  //         return true;
+  //       }
+  //     }).toList();
 
   // void clearCompleted() {
   //   _accounts.removeWhere((account) => account.complete);

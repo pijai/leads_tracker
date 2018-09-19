@@ -5,8 +5,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/account_models.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/account_models.dart';
 
 class AccountItem extends StatelessWidget {
   final DismissDirectionCallback onDismissed;

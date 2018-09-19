@@ -4,12 +4,12 @@
 
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:scoped_model_sample/account_models.dart';
-import 'package:scoped_model_sample/screens/add_edit_account_screen.dart';
-import 'package:scoped_model_sample/account_list_model.dart';
-import 'package:scoped_model_sample/widgets/account_item.dart';
+import 'package:leads_tracker/account_models.dart';
+import 'package:leads_tracker/screens/add_edit_account_screen.dart';
+import 'package:leads_tracker/account_list_model.dart';
+import 'package:leads_tracker/widgets/account_item.dart';
 
 class AccountList extends StatelessWidget {
   AccountList({Key key}) : super(key: key);
@@ -47,8 +47,8 @@ class AccountList extends StatelessWidget {
   Column _accountSummary(AccountListModel model) {
 
     Column buildValueColumn(String label, String value, MaterialColor color) {
-      final incomes = model.debitAccounts;
-      print(incomes);
+      // final incomes = model.debitAccounts;
+      // print(incomes);
       // Color colorTitle = Theme.of(context).primaryColor;
       return new Column(
         mainAxisSize: MainAxisSize.min,

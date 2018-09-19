@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:scoped_model_sample/app.dart';
-import 'package:scoped_model_sample/repos/repository_flutter/repository_flutter.dart';
+import 'package:leads_tracker/app.dart';
+import 'package:leads_tracker/repos/repository_flutter/repository_flutter.dart';
 
 void main() {
   var todoRepo = const TodosRepositoryFlutter(

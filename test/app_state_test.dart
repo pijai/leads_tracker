@@ -3,8 +3,8 @@
 // // in the LICENSE file.
 
 // import 'package:flutter_test/flutter_test.dart';
-// import 'package:scoped_model_sample/models.dart';
-// import 'package:scoped_model_sample/todo_list_model.dart';
+// import 'package:leads_tracker/models.dart';
+// import 'package:leads_tracker/todo_list_model.dart';
 // import 'package:todos_repository/todos_repository.dart';
 
 // main() {

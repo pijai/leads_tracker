@@ -5,11 +5,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 // import '../util/flutter_architecture_samples.dart';
-import 'package:scoped_model_sample/util/flutter_architecture_samples.dart';
+import 'package:leads_tracker/util/flutter_architecture_samples.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:scoped_model_sample/models.dart';
-import 'package:scoped_model_sample/screens/add_edit_screen.dart';
-import 'package:scoped_model_sample/todo_list_model.dart';
+import 'package:leads_tracker/models.dart';
+import 'package:leads_tracker/screens/add_edit_screen.dart';
+import 'package:leads_tracker/todo_list_model.dart';
 
 class DetailScreen extends StatelessWidget {
   final String todoId;
